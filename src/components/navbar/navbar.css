@@ -23,5 +23,21 @@
 .latte__navbar-links_logo img{
   width: 62px;
   height: 28px;
+}
 
+.latte__navbar-links_container{
+  display: flex;
+  flex-direction: row;
+}
+
+.latte__navbar-sign{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.latte__navbar-links_container p,
+.latte__navbar-sign p,
+.latte__navbar-menu_container p {
+  color: #fff;
 }

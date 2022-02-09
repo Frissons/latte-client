@@ -10,14 +10,15 @@ const Navbar = () => {
       <div className='latte__navbar-links'>
         <div className='latte__navbar-links_logo'>
           <img src={logo} alt="logo" />
-          <a className="brand" href="/" >Latte</a>
+          <a href="#home" >Latte</a>
         </div>
-        <header className="navbar">
-          <a className="navitem" href="/" >🍫 Chocolate</a>
-          <a className="navitem" href="/" >🍵 Green Tea</a>
-          <a className="navitem" href="/" >🍺 Beer</a>
-          <a className="navitem" href="/" >👨‍🎓 Login</a>
-        </header>
+        <div className="latte__navbar-links_container">
+          <p><a  href="#home" >🍫 Home</a></p>
+          <p><a  href="#WLatte" >☕ What is Latte</a></p>
+          <p><a  href="#Possibility" >🍺 Encryption</a></p>
+          <p><a  href="#Features" >🍵 Features</a></p>
+          <p><a  href="#Blog" >📚 Library</a></p>
+        </div>
       </div>
     </div>
   )
