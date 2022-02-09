@@ -14,36 +14,37 @@ text-decoration: none;
 color: unset;
 }
 
-.entry{
-  font-family: saturnalia;
-  font-weight: 5;
-  color: #F178D0;
+.section__padding {
+  padding: 4rem 6rem;
 }
 
-.sekyu{
-font-family: roboto;
-color: white;
-font-weight: 500;
 
+.section__margin {
+  margin: 4rem 6rem;
 }
-.App{
-  min-height: 100vh;
-  margin: 0px;
-  background-color: #21252B;
-}
-.navbar {
-  position:sticky;
-  display: flex;
-  height: 70px;
-  margin: 0px;
-  padding-inline: 10%;
-  background-color: #282C34;
-  justify-content: center;
-  align-items: center; 
-  color: white;
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,.3)
 
-} 
+/* Media query for responsive layout */
+@media screen and (max-width: 700px){
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+
+
+@media screen and (max-width: 550px){
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
 
 .brand {
   font-family: Roboto;

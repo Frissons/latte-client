@@ -3,7 +3,10 @@ import '../feature/feature.css';
 
 const Feature = () => {
   return (
-    <div>Feature</div>
+    <div className="dlbanner">
+      <p>Now available in <br /> <strong> Web and Mobile Platforms.</strong></p>
+      <button className="btnDl" >Download now</button>
+    </div>
   )
 }
 

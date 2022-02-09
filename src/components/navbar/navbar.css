@@ -1,0 +1,27 @@
+.latte__navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    color: white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.2)
+  } 
+
+.latte__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.latte__navbar-links_logo {
+  display: flex;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.latte__navbar-links_logo img{
+  width: 62px;
+  height: 28px;
+
+}
