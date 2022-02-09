@@ -1,6 +1,6 @@
+import '../article/article.css';
 
-
-const Context = () => {
+const Article = () => {
     return(
         <div className="catalog-context">
         <div className="context">
@@ -12,4 +12,4 @@ const Context = () => {
     )
 }
 
-export default Context;
+export default Article;

@@ -1,3 +1,5 @@
+import React from 'react'
+import '../carousel/carousel.css';
 const Carousel = () => {
     return(
         <div className="catalog-carousel">

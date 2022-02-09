@@ -1,10 +1,12 @@
+import React from 'react'
 
 const Footer = () => {
-return(
-    <footer className="foot">
+  return (
+    <div>
         <p>Allrights Reserved &copy; 2021</p>
-    </footer>
-)
+        
+    </div>
+  )
 }
 
 export default Footer
