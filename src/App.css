@@ -1,0 +1,135 @@
+  a {
+  text-decoration: none;
+  color: white;
+  }
+ .entry{
+   font-family: saturnalia;
+   font-weight: 5;
+   color: #F178D0;
+ }
+
+ .sekyu{
+  font-family: roboto;
+  color: white;
+  font-weight: 500;
+
+}
+  .App{
+    min-height: 100vh;
+    margin: 0px;
+    background-color: #21252B;
+  }
+  .navbar {
+    position:sticky;
+    display: flex;
+    height: 70px;
+    margin: 0px;
+    padding-inline: 10%;
+    background-color: #282C34;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.3)
+
+  } 
+
+  .brand {
+    font-family: Roboto;
+    font-size: 25px;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  .brand:hover {
+    opacity: 80%;
+  }
+
+
+
+  .navitem {
+    font-family: roboto;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-inline: 1%;
+  }
+
+  .navitem:hover {
+    opacity: 80%;
+  }
+
+  .context {
+    
+    font-size: 30px;
+    font-family: roboto;
+  }
+  .carousel {
+    font-family: roboto;
+    font-size: 30px;
+  }
+
+  .dlbanner {
+    height: min-content;
+    padding-inline: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: white;
+    font-family: roboto;
+    background-color: #2F2441 ;
+    font-size: 30px;
+  }
+  .btnDl {
+    height: 50px;
+    width: 130px;
+    color: #282C34;
+    background-color:  #36F9F6;
+    border-radius: 6px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    font-weight: bold;
+    }
+
+  .btnDl:hover {
+    opacity: 80%;
+  }
+
+  .catalog-carousel {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+    height: min-content;
+    padding-inline: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    background-color: tomato ;
+  }
+
+  .catalog-context {
+    display: flex;
+    flex-direction:row;
+    height: min-content;
+    padding-inline: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    align-items: center;
+    color: white;
+  }
+  
+  .lock-icon {
+    font-size: 150px;
+  }
+
+  .foot {
+    display: flex;
+    font-family: fira code;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #282C34;
+    color: white;
+    cursor: pointer;
+  }
