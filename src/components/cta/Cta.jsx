@@ -2,7 +2,7 @@ import React from 'react'
 
 const CTA = () => {
   return (
-    <div>Cta</div>
+    <div className='section__padding'>Cta</div>
   )
 }
 

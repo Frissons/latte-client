@@ -3,12 +3,13 @@
 
 :root {
 
-    --font-family: 'Quicksand';
+    --font-family: 'Quicksand', sans-serif;
 
     
-    --color-bg:#282C34;
-    --color-footer:#031b34;
+    /* --color-bg:#282C34; */
+    --color-bg:#23272E;
+    --color-footer:#1E2227;
     --color-blog: #042c54;
-    --color-text: #81afdd;
+    --color-text: #ffffff;
     --color-subtext: #ff8a71;
 }

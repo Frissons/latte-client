@@ -3,7 +3,7 @@ import '../brand/brand.css';
 
 const Brand = () => {
   return (
-    <div>Brand</div>
+    <div className='section__padding'>Brand</div>
   )
 
 }

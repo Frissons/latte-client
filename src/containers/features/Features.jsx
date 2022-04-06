@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <div className='section__padding'>Features</div>
   )
 }
 

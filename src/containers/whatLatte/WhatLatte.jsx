@@ -2,7 +2,7 @@ import React from 'react'
 import '../whatLatte/whatLatte.css'
 const Whatlatte = () => {
   return (
-    <div>Whatlatte</div>
+    <div className='section__padding'>Whatlatte</div>
   )
 }
 
